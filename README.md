@@ -76,7 +76,7 @@ This project allows users to manage tasks, track progress, upload documents, and
 - AJAX-powered operations for smooth experience
 
 ## 🛠️ Tech Stack
-- **Framework**: Laravel 10
+- **Framework**: Laravel 12
 - **Frontend**: TailwindCSS, AlpineJS
 - **Database**: MySQL
 - **Other**: jQuery, DataTables

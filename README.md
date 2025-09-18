@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -59,3 +60,53 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+=======
+# Laravel Task Management System
+
+A Task Management System built with **Laravel**, **TailwindCSS**, and **MySQL**.  
+This project allows users to manage tasks, track progress, upload documents, and collaborate efficiently.
+
+## 🚀 Features
+- User Authentication (Login/Register)
+- Task CRUD (Create, Read, Update, Delete)
+- Task Priority & Status (Pending, Completed)
+- File Uploads for Task Documents
+- Dashboard with Stats (Total Tasks, Completed, Pending, Users)
+- Responsive UI with TailwindCSS
+- AJAX-powered operations for smooth experience
+
+## 🛠️ Tech Stack
+- **Framework**: Laravel 10
+- **Frontend**: TailwindCSS, AlpineJS
+- **Database**: MySQL
+- **Other**: jQuery, DataTables
+
+## 📦 Installation
+1. Clone the repo
+   ```bash
+   git clone https://github.com/USERNAME/task-management-system.git
+Install dependencies
+
+bash
+Copy code
+composer install
+npm install && npm run dev
+Setup environment
+
+bash
+Copy code
+cp .env.example .env
+php artisan key:generate
+Configure .env with your DB details
+
+Run migrations
+
+bash
+Copy code
+php artisan migrate
+Start server
+
+bash
+Copy code
+php artisan serve
+>>>>>>> 47eaceac57f58eb09e421cd6c6a4c13065e515b4
